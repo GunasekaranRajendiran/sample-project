@@ -1,0 +1,191 @@
+body{
+	padding:0;
+	margin:0;
+}
+header .container-fluid img{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.navbar .navbar-nav .nav-link {
+    color: floralwhite;
+    padding: 5px;
+    margin:2px 10px;
+}
+.navbar .collapse{
+    padding-left: 40%;  
+}
+.bi{
+    padding:4px;
+}
+#navbarSupportedContent ul li a:hover{
+    color:chartreuse;
+    transition: 0.4s;
+}
+#download{
+    border:1px solid rgb(91, 165, 235);
+    /* box-shadow: 2px 2px 2px white; */
+    color:rgb(91, 165, 235) ;
+}
+#livedemo .bi{
+    color:rgb(91, 165, 235);
+}
+#get .bi{
+    color:rgb(91, 165, 235);
+}
+#img2 {
+    background-image: url("Rectangle 73.png");
+    background-size: cover;
+    background-position: center;
+    height:200px;
+    min-height:52vh;
+    padding-bottom: 5px;
+  }
+  
+.left{
+    position: relative;
+    text-align: center;
+    
+  }
+  .one-l{
+  
+    width:150px;
+    height:45px;
+    background-color:white;
+    border: 1px solid white;
+    color:black;
+    padding: 10px 2px 2px 2px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 10px;
+  position: absolute;
+  bottom:330px;
+  left:-10%;
+  }
+  .one-r{
+  
+    width:130px;
+    height:45px;
+    background-color:white;
+    border: 1px solid white;
+    color:black;
+    padding: 10px 2px 2px 2px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 10px;
+  position: absolute;
+  bottom:280px;
+  left:40%;
+  }
+  
+  .two-l{
+  
+    width:130px;
+    height:45px;
+    background-color:white;
+    border: 1px solid white;
+    color:black;
+    padding: 10px 2px 2px 2px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 10px;
+  position: absolute;
+  bottom:180px;
+  left:-10%;
+  }
+  .two-r{
+  
+    width:150px;
+    height:45px;
+    background-color: white;
+    border: 1px solid white;
+    color:black;
+    padding: 10px 2px 2px 2px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 10px;
+  position: absolute;
+  bottom:134px;
+  left:42%;
+  }
+  .three-l{
+  
+    width:150px;
+    height:45px;
+    background-color:white;
+    border: 1px solid white;
+    color:black;
+    padding: 10px 2px 2px 2px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 10px;
+  position: absolute;
+  bottom:40px;
+  left:-15%;
+  }
+  .three-r{
+  
+    width:150px;
+    height:45px;
+    background-color:white;
+    color:black;
+    padding: 10px 2px 2px 2px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 10px;
+  position: absolute;
+  bottom:5px;
+  left:36%;
+  }
+  .text{
+    color:rgb(44, 152, 224);
+  }
+  /* .left .bi{
+    color:rgb(24, 164, 199);
+    font-size: 20px;
+  } */
+  @media  (max-width: 767px) {
+  
+    .left{
+      margin-left:40%;
+      width: 250;
+    }
+    .three-r{
+      left:20%
+    }
+    .three-l{
+      left:-65%;
+    }
+    .two-r{
+      left:20%
+    }
+    .two-l{
+      left:-65%;
+    }
+    .one-r{
+      left:20%;
+    }
+    .one-l{
+      left:-65%;
+    }
+    #homeVideo{
+      width: 96%;
+      height: auto;
+    }
+  }
+
+  #button2{
+    color: white;
+    background-color: red;
+    border-radius: 2px;
+    text-align: center;
+    padding:4px 10px 4px 10px;
+    text-decoration: none;
+   border:2px solid red;
+  }
